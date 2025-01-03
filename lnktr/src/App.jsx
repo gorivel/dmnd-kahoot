@@ -1,4 +1,4 @@
-import { FileQuestion } from 'lucide-react';
+import { FileQuestion, Gamepad2, Users, Dices } from 'lucide-react';
 
 const App = () => {
   const links = [
@@ -10,17 +10,17 @@ const App = () => {
     { 
       title: 'Tutorial Bermain Kahoot',
       url: '/tutorial.pdf',
-      icon: <FileQuestion className="w-6 h-6" />
+      icon: <Gamepad2 className="w-6 h-6" />
     },
     { 
       title: 'Link Microsoft Teams Kahoot',
       url: 'https://tinyurl.com/TEAMSKahoot',
-      icon: <FileQuestion className="w-6 h-6" />
+      icon: <Users className="w-6 h-6" />
     },
     { 
       title: 'Link ID Generator',
       url: 'https://uid-gen.vercel.app',
-      icon: <FileQuestion className="w-6 h-6" />
+      icon: <Dices className="w-6 h-6" />
     },
 
     
