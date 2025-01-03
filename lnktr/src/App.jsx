@@ -9,7 +9,7 @@ const App = () => {
     },
     { 
       title: 'Link Microsoft Teams Kahoot',
-      url: 'https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_ZjM3MmU0MWMtMDlkYi00NTk2LWI2NzgtNjMwMmM3ZWU5MGRj%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522e4020e3d-231e-45f1-b023-e463b1f0f7f2%2522%252c%2522Oid%2522%253a%25229a6464de-a283-486e-96eb-06fba1ca7aaa%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=cfefb9d5-bc72-49d1-bbb4-8f4ed0a778b8&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true',
+      url: 'https://tinyurl.com/TEAMSKahoot',
       icon: <FileQuestion className="w-6 h-6" />
     },
     { 
