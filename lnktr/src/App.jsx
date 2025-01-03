@@ -8,6 +8,11 @@ const App = () => {
       icon: <FileQuestion className="w-6 h-6" />
     },
     { 
+      title: 'Tutorial Bermain Kahoot',
+      url: '/tutorial.pdf',
+      icon: <FileQuestion className="w-6 h-6" />
+    },
+    { 
       title: 'Link Microsoft Teams Kahoot',
       url: 'https://tinyurl.com/TEAMSKahoot',
       icon: <FileQuestion className="w-6 h-6" />
