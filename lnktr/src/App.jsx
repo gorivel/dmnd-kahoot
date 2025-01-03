@@ -37,8 +37,8 @@ const App = () => {
               alt="Profile"
             />
           </div>
-          <h1 className="text-2xl font-bold text-black">Link Portal</h1>
-          <p className="text-black/80">Corporte Training & Development</p>
+          <h1 className="text-2xl font-bold text-black">GET Diamond 💎</h1>
+          <p className="text-black/80">Corporate Training & Development</p>
         </div>
 
         {/* Links Section */}
