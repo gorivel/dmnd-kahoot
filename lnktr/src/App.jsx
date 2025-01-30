@@ -3,6 +3,11 @@ import { FileQuestion, Gamepad2, Users, Dices } from 'lucide-react';
 const App = () => {
   const links = [
     { 
+      title: 'Link Product Knowledge',
+      url: 'https://pkdiamond.vercel.app/',
+      icon: <FileQuestion className="w-6 h-6" />
+    },
+    { 
       title: 'Peraturan Games Kahoot',
       url: '/peraturan.pdf',
       icon: <FileQuestion className="w-6 h-6" />
