@@ -9,7 +9,7 @@ const App = () => {
     },
     { 
       title: 'Daftar Karyawan yang belum ikut dan lulus DIAMOND CORE VALUE + CACA',
-      url: '/DataKaryawanBelum.pdf',
+      url: '/DATA.pdf',
       icon: <FileQuestion className="w-6 h-6" />
     },
     { 
