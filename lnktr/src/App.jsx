@@ -3,6 +3,16 @@ import { FileQuestion, Gamepad2, Users, Dices } from 'lucide-react';
 const App = () => {
   const links = [
     { 
+      title: 'IMO Sosialisasi DIAMOND CORE VALUE + CACA',
+      url: '/IMO.pdf',
+      icon: <FileQuestion className="w-6 h-6" />
+    },
+    { 
+      title: 'Daftar Karyawan yang belum ikut dan lulus DIAMOND CORE VALUE + CACA',
+      url: '/DataKaryawanBelum.pdf',
+      icon: <FileQuestion className="w-6 h-6" />
+    },
+    { 
       title: 'Link Product Knowledge',
       url: 'https://pkdiamond.vercel.app/',
       icon: <FileQuestion className="w-6 h-6" />
@@ -52,9 +62,15 @@ const App = () => {
             <a
               key={index}
               href={link.url}
-              className="group flex items-center p-4 rounded-xl backdrop-blur-sm bg-white/80 border border-white/10 transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-lg"
+              className={`group flex items-center p-4 rounded-xl backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:shadow-lg ${
+                index < 2 
+                ? 'bg-red-600 hover:bg-red-700' 
+                : 'bg-white/80 hover:bg-white/20 border border-white/10'
+              }`}
             >
-              <div className="flex items-center space-x-4 text-black w-full">
+              <div className={`flex items-center space-x-4 w-full ${
+                index < 2 ? 'text-white font-bold' : 'text-black'
+              }`}>
                 <span className="transition-transform duration-300 group-hover:rotate-12">
                   {link.icon}
                 </span>
